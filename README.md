@@ -2,12 +2,6 @@
 
 > A hybrid CNN–LSTM deep learning system for automated detection and classification of deepfake images and videos across multiple manipulation techniques.
 
-**Author:** Habeeba M N — Reg. No. MAC24MCA-2029  
-**Guide:** Prof. Sibu Skaria  
-**Institution:** Mar Athanasius College of Engineering, Kothamangalam  
-**Degree:** Master of Computer Applications — APJ Abdul Kalam Technological University  
-**Year:** 2024–2026
-
 ---
 
 ## 🧠 Overview
