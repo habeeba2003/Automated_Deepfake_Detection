@@ -49,14 +49,14 @@ Input: B × 10 × 3 × 112 × 112  (batch × frames × channels × H × W)
          │  Reshape: B × 10 × 256
    ┌─────▼────────────────────────────────────────────┐
    │            LSTM Temporal Modeler                 │
-   │  Input: 256  |  Hidden: 256  |  Dropout: 0.25   │
+   │  Input: 256  |  Hidden: 256  |  Dropout: 0.25    │
    │  Output: Last hidden state → B × 256             │
    └─────┬────────────────────────────────────────────┘
          │
    ┌─────▼────────────────────────────────────────────┐
    │          Fully Connected + Softmax               │
    │  256 → 6 classes                                 │
-   │  [Real, Deepfakes, Face2Face, FaceSwap,           │
+   │  [Real, Deepfakes, Face2Face, FaceSwap,          │
    │   NeuralTextures, FaceShifter]                   │
    └──────────────────────────────────────────────────┘
 ```
